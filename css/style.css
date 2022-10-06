@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+
+.header {
+    display: grid;
+    background-color: white;
+    /*padding: 15px;*/
+}
+
+h1 {
+    margin-left: 1255px;
+    margin-top: -60px;
+}
+
+.menu ul {
+    display: grid;
+    width: 100%;
+    margin-left: 15px;
+    grid-auto-columns: 94px;
+    grid-auto-flow: column;
+}
+
+.menu li {
+    padding: 20px;
+    margin-right: 5px;
+    list-style-type: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: underline;
+}
+
+.row {
+    content: "";
+    display: grid;
+    clear: both;
+}
+
+.row1 {
+    content: "";
+    display: grid;
+    clear: both;
+}
+
+.column {
+    display: grid;
+    grid-auto-flow: revert;
+    width: 350px;
+    float: left;
+}
+
+.secondBlock {
+    background-color: white;
+    padding: 20px 75px;
+}
+
+.fifthBlock {
+    background-color: white;
+    padding: 20px 75px;
+    text-align: left;
+}
+
+.row2 {
+    display: grid;
+    grid-auto-flow: column;
+    float: right;
+}
+
+.sixthBlock {
+    background-color: white;
+    width: 700px;
+    height: 205px;
+    padding: 20px 75px;
+    margin-right: -728px;
+    text-align: right;
+}
+
+.y {
+    background-color: white;
+    width: 154px;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: 100px;
+    /*padding: 20px;*/
+    text-align: left;
+}
+
+.thirdBlock {
+    background-color: white;
+    float: left;
+    width: 36em;
+    height: 150px;
+    margin-left: 350px;
+    margin-top: -847px;
+    padding: 20px 75px;
+    text-align: center;
+}
+
+.fourthBlock {
+    background-color: white;
+    float: right;
+    width: 210px;
+    margin-left: 1075px;
+    margin-top: -850px;
+    padding: 20px 75px;
+    text-align: right;
+}
+
+.row3 {
+    display: grid;
+    grid-auto-flow: column;
+    float: left;
+}
+
+.about {
+    margin-top: 310px;
+    margin-left: 185px;
+}
+
+.support {
+    margin-left: 50px;
+    list-style-type:square;
+}
+
+.support a {
+    color: black;
+}
+
+
+.news {
+    margin-left: 60px;
+}
